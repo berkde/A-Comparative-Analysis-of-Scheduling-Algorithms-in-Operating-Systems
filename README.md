@@ -111,7 +111,3 @@ You can also execute the notebook as a standalone script:
 ```bash
 jupyter nbconvert --execute ProcessSchedulingSimulation.ipynb --to notebook
 ```
-
----
-
-Would you like me to also generate a sample bar chart or add a `graph` folder reference in the README?
