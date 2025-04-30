@@ -1,11 +1,14 @@
 #  A Comparative Analysis of Scheduling Algorithms in Operating Systems
 
+----
 This project simulates and compares three fundamental CPU scheduling algorithms: **First-Come-First-Served (FCFS)**, **Shortest Job Next (SJN)**, and **Round Robin (RR)**. It generates random processes with different arrival and burst times and evaluates each scheduling method based on key performance metrics.
 
 
 # Project Overview
 
-### The scipt performs the following:
+---
+
+#### The scipt performs the following:
 
 ## 1. Imports Required Libraries
 Loads random, pandas, and matplotlib to handle data generation, analysis, and visualization.
@@ -25,15 +28,22 @@ Applies each of the three scheduling algorithms.
 
 
 
-## 4. Creates Visual Comparisons
+## 5. Creates Visual Comparisons
 Plots a bar chart comparing average waiting and turnaround times across algorithms.
 Plots another bar chart comparing throughput.
 
-# Entry Point for Script Execution
+
+
+## Entry Point for Script Execution
+
+----
 If the file is run directly (via __main__), it triggers the simulation and visualization pipeline.
 
 
+
 ## Features
+
+---
 
 - Generate synthetic process data
 - Implement core scheduling algorithms:
@@ -46,7 +56,11 @@ If the file is run directly (via __main__), it triggers the simulation and visua
   - System throughput
 - Plot comparative bar charts for each algorithm
 
+
+
 ## Algorithms Implemented
+
+---
 
 ### First-Come-First-Served (FCFS)
 - Non-preemptive
@@ -60,13 +74,19 @@ If the file is run directly (via __main__), it triggers the simulation and visua
 - Preemptive
 - Processes are assigned a time quantum and cycled through in a queue.
 
+
+
 ##  Metrics Evaluated
+
+---
 
 - **Average Waiting Time**: Mean of time each process waits before getting CPU.
 - **Average Turnaround Time**: Time from arrival to completion per process.
 - **Throughput**: Number of processes completed per unit time.
 
 ## Visualizations
+
+---
 
 The notebook plots two bar charts:
 1. **Avg Waiting Time & Turnaround Time** per Algorithm
